@@ -5,6 +5,8 @@
    
    [PENGIN](https://pengi-n.co.jp/blog/coding-practice1/) さんが配布しているデザインカンプを実装したものです。
 
+   GitHub Pagesで公開中:[https://sim10play.github.io/portfolio01/](https://sim10play.github.io/portfolio01/)
+
 ## 2. ファイル構成
    - `index.html`: サイトのメインページであり、全体のコンテンツが配置されています。
    - `css/style.css`: サイトのスタイルを定義するCSSファイルです。
