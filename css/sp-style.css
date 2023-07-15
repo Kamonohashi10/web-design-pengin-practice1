@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+
+@media (max-width: 1000px) {
+
+  /*---------------------------------------
+  共通
+  ----------------------------------------- */
+  .section-wrapper {
+    width: calc(100% - 30px);
+  }
+
+  .catchcopy {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 34px;
+  }
+
+  /*---------------------------------------
+  header
+  ----------------------------------------- */
+  .header__contents {
+    width: calc(100% - 30px);
+    position: relative;
+    transition: 0.1s;
+  }
+
+  .header__nav {
+    display: none;
+    /* 表示された時の設定 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--header-bg);
+    z-index: 999;
+    transition: 1s;
+  }
+  .header__nav-ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100%; */
+    gap: 50px;
+    align-items: center;
+  }
+  .header__nav-li {
+    margin: 0;
+  }
+
+  .header__burger-btn {
+    background-color: var(--header-bg);
+    border: none;
+    width: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .header__burger-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.1s;
+  }
+
+  .header__burger-btn_close {
+    z-index: 10000;
+
+    .header__burger-line1 {
+      transform: translate(0, 10px) rotate(45deg);
+      transform-origin: center;
+    }
+    .header__burger-line2 {
+      opacity: 0;
+    }
+    .header__burger-line3 {
+      transform: translate(0, -10px) rotate(-45deg);
+      transform-origin: center;
+    }
+  }
+
+  /*---------------------------------------
+  top
+  ----------------------------------------- */
+  .top_img-pc {
+    display: none;
+  }
+
+  .top_img-sp {
+    display: block;
+    height: 590px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /*---------------------------------------
+  about
+  ----------------------------------------- */
+
+
+  /*---------------------------------------
+  service
+  ----------------------------------------- */
+  .service__title {
+    margin-bottom: 77px;
+  }
+
+  .service__box {
+    height: auto;
+    gap: 0;
+  }
+
+  .service__box:first-child {
+    margin-bottom: 55px;
+    flex-direction: column-reverse;
+  }
+
+  .service__box:last-child {
+    flex-direction: column;
+  }
+
+  .service__contents {
+    margin: auto 0;
+    margin-bottom: 40px;
+  }
+
+  /*---------------------------------------
+  news
+  ----------------------------------------- */
+  .news-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .news__box img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*---------------------------------------
+  contact
+  ----------------------------------------- */
+  .contact {
+    width: calc(100% - 30px);
+  }
+
+  .contact__title {
+    font-size: 24px;
+  }
+
+  /*---------------------------------------
+  footer
+  ----------------------------------------- */
+  footer {
+    height: 60px;
+  }
+
+  footer p {
+    line-height: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

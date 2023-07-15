@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="" ja>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ポートフォリオ01</title>
+  <meta name="description" contents="サイト説明">
+  <!-- レスポンシブ設定 -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> <!-- リセットCSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/sp-style.css" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico">
+
+  <!-- Roboto Regular 400 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Noto Sans Japanese Regular 400 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header__contents">
+      <h1 class="header__logo"><a href="index.html">クリ★スタ</a></h1>
+      <div class="header__nav" id="header__nav">
+        <ul class="header__nav-ul">
+          <li class="header__nav-li en-font"><a href="#about">About</a></li>
+          <li class="header__nav-li en-font"><a href="#service">Service</a></li>
+          <li class="header__nav-li en-font"><a href="#news">News</a></li>
+          <li class="header__nav-li en-font"><a href="#contact">Contact</a></li>
+        </ul>
+        
+      </div><!-- /.header__nav -->
+      <button class="header__burger-btn" id="header__burger-btn">
+        <span class="header__burger-line header__burger-line1"></span>
+        <span class="header__burger-line header__burger-line2"></span>
+        <span class="header__burger-line header__burger-line3"></span>
+      </button>
+    </div><!-- /.header__contents -->
+  </header>
+
+  <div class="main">
+    <section id="top" class="top">
+      <img class="top_img-pc" src="img/fv-bgi@2x.jpg" alt="メインビジュアル(PC)">
+      <img class="top_img-sp" src="img/fv-bgi_sp@2x.jpg" alt="メインビジュアル(SP)">
+      <div class="top__textbox">
+        <p class="top__text en-font">Cresta</p>
+      </div><!-- /.top__textbox -->
+    </section>
+
+    <section id="about" class="section-wrapper about">
+      <h2 class="section-title about__title en-font">About</h2>
+      <div class="about-container">
+        <div class="catchcopy">
+          ミニマルで<br>
+          洗練されたデザインを。
+        </div>
+        <p>
+          近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。
+        </p>
+      </div>
+    </section>
+
+    <section id="service" class="section-wrapper service">
+      <h2 class="section-title service__title en-font">Service</h2>
+      <div class="service-container">
+
+        <div class="service__box">
+          <img src="img/service-image@2x.jpg" alt="サービス画像">
+          <div class="service__contents">
+            <div class="catchcopy">
+              リリース時のサポートで<br>
+              サービスのブランディングを
+            </div><!-- /.catchcopy -->
+            <p>
+              弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。
+            </p>
+          </div><!-- /.service__contents -->
+        </div><!-- /.service__box -->
+
+        <div class="service__box">
+          <div class="service__contents">
+            <div class="catchcopy">
+              リリース後のサポートで<br>
+              効果を最大化させる
+            </div><!-- /.catchcopy -->
+            <p>
+              弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。
+            </p>
+          </div><!-- /.service__contents -->
+          <img src="img/service-image02@2x.jpg" alt="サービス画像">
+        </div><!-- /.service__box -->
+
+      </div>
+    </section>
+
+    <section id="news" class="section-wrapper news">
+      <h2 class="section-title news__title en-font">News</h2>
+      <div class="news-container">
+        <div class="news__box">
+          <img src="img/card-image1@2x.jpg" alt="news1">
+          <p class="news__text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+        <div class="news__box">
+          <img src="img/card-image2@2x.jpg" alt="news2">
+          <p class="news__text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+        <div class="news__box">
+          <img src="img/card-image3@2x.jpg" alt="news3">
+          <p class="news__text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="section-wrapper contact">
+      <p class="contact__title">お問い合わせ</p>
+      <div class="contact__container">
+        <div class="contact__form">
+          <p class="contact__label">担当者名</p><!-- /.contact__label -->
+          <input type="text" class="contact__textinput">
+          <p class="contact__label">電話番号</p><!-- /.contact__label -->
+          <input type="text" class="contact__textinput">
+          <p class="contact__label">メールアドレス</p><!-- /.contact__label -->
+          <input type="text" class="contact__textinput">
+          <p class="contact__label">お問い合わせ内容</p><!-- /.contact__label -->
+          <textarea name="" id="" cols="30" rows="10" class="contact__textarea"></textarea>
+        </div><!-- /.contact__form -->
+        <div class="contact__button">
+          <button>送信</button>
+        </div><!-- /.contact__button -->
+      </div><!-- /.contact__container -->
+    </section>
+
+  </div>
+  <footer>
+    <p class="en-font">&copy; crest.design all rights reserved</p>
+  </footer>
+
+  <!-- js -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
