@@ -3,7 +3,7 @@
 ## 1. サイトの概要
    ポートフォリオ01は、HTML、CSS、JavaScriptで構築された静的なWebサイトです。このリポジトリでは、クリ★スタという架空のデザイン会社のポートフォリオを作成しています。
    
-   [PENGIN](https://pengi-n.co.jp/blog/coding-practice1/) さんが配布しているデザインカンプを実装したものです。
+   このポートフォリオは[PENGIN](https://pengi-n.co.jp/blog/coding-practice1/) さんが配布しているデザインカンプを実装したものです。
 
    GitHub Pagesで公開中:[https://sim10play.github.io/portfolio01/](https://sim10play.github.io/portfolio01/)
 
