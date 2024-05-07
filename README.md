@@ -7,7 +7,7 @@
    
 このポートフォリオは[PENGINさんが配布しているデザインカンプ](https://pengi-n.co.jp/blog/coding-practice1/) を実装したものです。
 
-GitHub Pagesで公開中:[https://sim10play.github.io/portfolio01/](https://sim10play.github.io/portfolio01/)
+GitHub Pagesで公開中:[https://inaka-de-mac.github.io/web-design-pengin-practice1/](https://inaka-de-mac.github.io/web-design-pengin-practice1/)
 
 ## 2. ファイル構成
    - `index.html`: サイトのメインページ
